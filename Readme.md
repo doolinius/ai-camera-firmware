@@ -1,6 +1,7 @@
 # AI Camera UART Usage
 
-This is a firmware read convert uart command and create a websocket server. It's originally for Arduino or Raspberry Pi Pico to connect to SunFounder Controller. Send command and data over UART in boardrate 115200
+This is a firmware read convert uart command and create a websocket server. It's originally for Arduino or Raspberry Pi Pico to connect to SunFounder Controller. Send command and data over UART in boardrate 115200.
+Adding MQTT Support.
 
 ## Dependencies
  - ESP32 Arduino 2.0.17 (not working for 3.x for some reason, keeps disconnecting from websocket)
